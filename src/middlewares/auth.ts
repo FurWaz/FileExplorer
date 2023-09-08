@@ -1,4 +1,3 @@
-import jwt from 'jsonwebtoken';
 import type express from 'express';
 import { ErrLog, Log } from '../tools/log';
 import fetch from 'node-fetch';

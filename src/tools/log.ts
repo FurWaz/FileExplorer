@@ -1,5 +1,4 @@
 import type express from 'express';
-import { cp } from 'fs';
 
 class Log {
     public static readonly CODE = {

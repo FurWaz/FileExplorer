@@ -3,12 +3,10 @@ version: '3.1'
 services:
   # Node api setup
   node:
-    container_name: explorer-api
     build: .
     restart: always
     ports:
       - 8080:8080
     environment:
       PORT: 8080
-      APP_KEY: <insert_furwaz_key>
       FOLDER: <specify_root_folder>
